@@ -1,0 +1,27 @@
+
+
+input.error {
+    border: 1px solid red;
+    color: red;
+}
+
+.list-group-item .edit, .list-group-item .done {
+    //@extend.close;
+    right: 46px;
+    font-size: 15px;
+}
+
+li.list-group-item.done>span{
+    text-decoration: line-through;
+}
+ul.done li.list-group-item{
+    display: none;
+}
+
+ul.done li.list-group-item.done{
+    display: block;
+}
+
+ul.todo li.list-group-item.done{
+    display: none;
+}

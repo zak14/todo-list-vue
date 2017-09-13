@@ -1,0 +1,12 @@
+{
+    "tasks": [
+        {
+            "text": "Faire les courses",
+            "state": "todo"
+        },
+        {
+            "text": "préparer les cours pour la rentré",
+            "state": "done"
+        }
+    ]
+}
